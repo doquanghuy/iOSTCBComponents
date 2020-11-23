@@ -147,7 +147,7 @@ public class TCBAccountPanel: UIView {
         indicator.centerXAnchor(to: centerXAnchor)
         indicator.centerYAnchor(to: centerYAnchor)
         
-//        background.layer.addShadow()
+        background.layer.addShadow()
     }
     
     required init?(coder: NSCoder) {
@@ -155,6 +155,20 @@ public class TCBAccountPanel: UIView {
     }
     
     @objc private func onChangeAccount() {
+    }
+}
+
+extension CALayer {
+    
+    @discardableResult
+    func addShadow() -> CALayer {
+        shadowOffset = .zero
+        shadowOpacity = 0.1
+        shadowRadius = 8
+        shadowColor = UIColor.black.cgColor
+        masksToBounds = false
+        
+        return self
     }
 }
 

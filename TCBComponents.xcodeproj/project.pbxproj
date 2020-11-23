@@ -82,7 +82,6 @@
 		4993D0D12566516A00B55512 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4993D08B2566516A00B55512 /* UITextField+Extensions.swift */; };
 		613F9FBA256BB2210099FF47 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613F9FB8256BB2210099FF47 /* Array+Extensions.swift */; };
 		613F9FCD256BB4370099FF47 /* UICollectionView+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613F9FCC256BB4370099FF47 /* UICollectionView+Identifier.swift */; };
-		613F9FD1256BB4AA0099FF47 /* CALayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613F9FD0256BB4AA0099FF47 /* CALayer+Extensions.swift */; };
 		89149468254A7FB100872C1E /* TCBComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8914945E254A7FB100872C1E /* TCBComponents.framework */; };
 		8914946D254A7FB100872C1E /* TCBComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8914946C254A7FB100872C1E /* TCBComponentsTests.swift */; };
 		891494B5254A805600872C1E /* TCBComponents.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 891494B4254A805600872C1E /* TCBComponents.podspec */; };
@@ -177,7 +176,6 @@
 		5999B6077D923A8C58CF008B /* Pods-TCBComponents-TCBComponentsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCBComponents-TCBComponentsTests.debug.xcconfig"; path = "Target Support Files/Pods-TCBComponents-TCBComponentsTests/Pods-TCBComponents-TCBComponentsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		613F9FB8256BB2210099FF47 /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		613F9FCC256BB4370099FF47 /* UICollectionView+Identifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Identifier.swift"; sourceTree = "<group>"; };
-		613F9FD0256BB4AA0099FF47 /* CALayer+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extensions.swift"; sourceTree = "<group>"; };
 		8914945E254A7FB100872C1E /* TCBComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TCBComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89149462254A7FB100872C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89149467254A7FB100872C1E /* TCBComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCBComponentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -405,7 +403,6 @@
 		4993D07D2566516A00B55512 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				613F9FD0256BB4AA0099FF47 /* CALayer+Extensions.swift */,
 				613F9FCC256BB4370099FF47 /* UICollectionView+Identifier.swift */,
 				613F9FB8256BB2210099FF47 /* Array+Extensions.swift */,
 				4993D07E2566516A00B55512 /* UIButton+Extensions.swift */,
@@ -717,7 +714,6 @@
 				4993D0B62566516A00B55512 /* TCBTextfield.swift in Sources */,
 				4993D0BF2566516A00B55512 /* TCBPopupViewController.swift in Sources */,
 				4993D08C2566516A00B55512 /* DefaultFonts.swift in Sources */,
-				613F9FD1256BB4AA0099FF47 /* CALayer+Extensions.swift in Sources */,
 				4993D0CD2566516A00B55512 /* UIBarButtonItem+Extensions.swift in Sources */,
 				4993D0AF2566516A00B55512 /* TCBNudgeType.swift in Sources */,
 				2B03ED1C2566843E0098F3E6 /* TCBBoxListBuilder.swift in Sources */,
