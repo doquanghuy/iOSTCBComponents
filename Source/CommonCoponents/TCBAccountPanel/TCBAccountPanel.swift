@@ -147,7 +147,7 @@ public class TCBAccountPanel: UIView {
         indicator.centerXAnchor(to: centerXAnchor)
         indicator.centerYAnchor(to: centerYAnchor)
         
-        background.layer.addShadow()
+//        background.layer.addShadow()
     }
     
     required init?(coder: NSCoder) {
