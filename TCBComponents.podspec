@@ -2,9 +2,9 @@ Pod::Spec.new do |s|
   s.name = 'TCBComponents'
   s.version = '1.0.0'
   s.summary = 'TCBComponents'
-  s.homepage = 'https://bitbucket.techcombank.com.vn/scm/toreombb/iostcbcomponents.git'
+  s.homepage = 'https://github.com/doquanghuy/iOSTCBComponents.git'
   s.authors = { 'Techcombank' => 'info@techcombank.com.vn' }
-  s.source = { :git => 'https://bitbucket.techcombank.com.vn/scm/toreombb/iostcbcomponents.git', :tag => s.version }
+  s.source = { :git => 'https://github.com/doquanghuy/iOSTCBComponents.git', :tag => s.version }
 
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
