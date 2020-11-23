@@ -1,0 +1,6 @@
+framework module Pods_TCBComponents_TCBComponentsTests {
+  umbrella header "Pods-TCBComponents-TCBComponentsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
