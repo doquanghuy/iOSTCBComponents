@@ -158,20 +158,6 @@ public class TCBAccountPanel: UIView {
     }
 }
 
-extension CALayer {
-    
-    @discardableResult
-    func addShadow() -> CALayer {
-        shadowOffset = .zero
-        shadowOpacity = 0.1
-        shadowRadius = 8
-        shadowColor = UIColor.black.cgColor
-        masksToBounds = false
-        
-        return self
-    }
-}
-
 extension TCBAccountPanel: TCBThemeableComponent {
     typealias Style = TCBAccountPanelStyle
     
